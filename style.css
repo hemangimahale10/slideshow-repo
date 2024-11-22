@@ -1,0 +1,29 @@
+.container{
+    width:fit-content;
+    margin: 50px auto;
+    position: relative;
+}
+
+.slide{
+    height: 650px;
+    width: 500px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.slide-action-icon{
+    height: 50px;
+    position: absolute;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.icon-next{
+    right: 10px;
+    top: 50%;
+}
+
+.icon-previous{
+    left: 10px;
+    top: 50%;
+}
