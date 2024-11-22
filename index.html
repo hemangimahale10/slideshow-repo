@@ -12,5 +12,23 @@
         <img src="./img/right-chevron.png" alt="next" onclick="next()" class="slide-action-icon icon-next">
         <img src="./img/left-chevron.png" alt="previous" onclick="previous()" class="slide-action-icon icon-previous">
     </div>
+
+    <script>
+        const images = ["./img/img1.jpg", "./img/img2.jpg", "./img/img3.jpg", "./img/img4.jpeg", "./img/img5.jpg","./img/img6.jpg"]
+
+        let index = 0;
+        const slide = document.getElementById('slide');
+
+        function next(){
+            if(index < images.length -1)
+        {
+            index++;
+        }
+        else{
+            index = 0;
+        }
+        slide.src = images[index]
+        }
+    </script>
 </body>
 </html>
