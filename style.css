@@ -23,7 +23,15 @@
     top: 50%;
 }
 
+.icon-next:hover{
+    transform: scale(0.8) translateX(10px) ;
+}
+
 .icon-previous{
     left: 10px;
     top: 50%;
+}
+
+.icon-previous:hover{
+    transform: scale(0.8) translateX(-10px);
 }
